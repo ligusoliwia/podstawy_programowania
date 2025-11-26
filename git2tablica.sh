@@ -17,4 +17,16 @@ for i in "${tab[@]}"; do
 	fi
 done
 echo "minimum tablicy to $min"
+#sortowanie babelkowe
+z=${#tablica[@]} #przypisanie do 'z' dlugosci tablicy
+j=0
+
+for i in (( ${tab[i]} > ${tab[i+1]} )); do
+	temp=${tab[i+1]}
+	${tab[i+1]}=${tab[1]}
+	${tab[i]}=$temp
+		if (( ${tab[i]} < ${tab[i+1]} )); then
+		$i=i+1
+		fi
+done
 
