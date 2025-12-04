@@ -1,0 +1,189 @@
+KOMENDY DLA UBUNTU
+
+ogólna budowa: polecenie [-opcja] argument
+    krótka opcja: -a
+    długa opcja: --all
+    łączenie opcji: -a -l == -al 
+
+1. man (manual) - wyświetla opis działania polecenia
+man [opcje] parametr
+
+2. help - pomoc
+help [opcje] argument
+    -d - krótki opis polecenia
+    -s - jednolinijkowy opis polecenia
+    --help wyświetla pomoc
+np. help cd - wyświetla pomoc dotyczącą komendy 'cd'
+
+3. info - wyświetla szczegółową informację o komendzie
+info [opcje] argument
+
+4. apropos - wyświetla informację powiązadne z danym tematem
+apropos [opcje] argument
+
+5. pwd - wyświetla bierzący katalog (katalog roboczy)
+pwd [opcje]
+    -L - uwzględnia linki
+    -P - bez linków
+
+6. cd - zmienia katalog
+cd [opcje] katalog
+    cd~user_name - na katalog podanego użytkownika
+        jeśli brak nazwy: na katalog aktualnego użytkownika
+    cd- - na poprzedni katalog
+    cd .. - katalog nadrzędny
+
+7. ls - zawartość katalogu
+ls [opcje] plik
+    -a - cała zawartość
+    -l - szczegółowa zawartość
+    -d - informacje na temat katalogu
+    -t - sortuje od najnowszych
+    -S - sortuje po rozmiarze rosnąco
+    -r - wyświetla w odwrotnej kolejności
+    -R - wyświetla też zawartość podkatalogów
+    -h - wyświetla przyjaźnie dla człowieka
+
+8. mkdir - tworzy katalog
+mkdir [opcje] nazwa_katalogu
+    -p - tworzy ścieżkę jeśli konieczne
+
+9. cp - kopia
+cp [opcje] źródło cel
+
+10. mv - przeniesienie lub zmiana nazwy
+mv [opcje] źródło cel
+    -i - jeśli będzie potrzeba nadpisania pliku użytkownik zostanie poproszony o potwierdzenie
+    -u - update pliku w docelowej lokalizacji
+
+11. rm - usuwanie pliku lub katalogu
+rm [opcje] plik
+    -i - potwierdzenie użytkownika przed usunięciem każdego pliku
+    -I - jednorazowe potwierdzenie
+    -r - usunięcie katalogu z podkatalogami
+    -f - uwsunięcie bez potwierdzenia
+    -d - usunięcie pustych katalogów
+
+12. ln - link
+ln [opcje] plik link
+    -s - link symboliczny
+
+13. file - określenie rodzaju pliku
+file [opcje] plik
+    -Z - informacja o typie pliku wewnątrz archiwum
+    -z - informacja o typie pliku wewnątrz archiwum i o archiwum
+
+14. touch - modyfikuje dane pliku/ tworzy plik
+touch [opcje] plik
+    -c - nie tworzy pliku jeśli nie ma wskazanej lokalizacji
+    -d - ustawia date modyfikacji
+
+15. more - wyświetla zawartość pliku w terminalu
+more [opcje] plik
+    -p - wyświetlenie całego ekranu
+    -n - określa ilość lini na ekran
+    -h - pomoc
+    -v - wyświetla wersję
+
+16. cat - wyświetla lub łączy i wyświetla zawartość plików
+cat [opcje] plik
+    -A - wyświetla wszystkie białe znaki
+
+17. tac - łączy i wyświetla pliki od końca
+tac [opcje] plik
+    -A - wyświetla znaki niedrukowane
+
+18. wc - liczy słowa 
+wc [opcje] plik
+    -l - zlicza linie
+    -m - zlicza znaki
+    -w - zlicza słowa
+
+19. uniq - usuwa duplikaty
+uniq [opcje] plik
+    -i - ignoruje wielkość znaków
+    -c - wstawia kolumne z liczbą powtórzeń
+    -D - wyświetla powtarzające się linie
+    -d - wyświetla tylko unikalne linie
+
+20. sort - sortuje zawartość pliku
+sort [opcje] plik
+    -h - przyjaźnie dla człowieka
+    -f - ignoruje wielkość znaków
+    -r - sortuje malejąco
+    -u - zwraca unikalne wartości
+
+21. head - wyświetla 10 pierwszych linii pliku
+head [opcje] plik
+    -n - określa ilość wierszy jaka będzie wyświetlona
+
+22. tail - wyświetla 10 ostatnich linii pliku
+tail [opcje] plik
+    -n - określa ilość wierszy jaka będzie wyświetlona
+
+23. cut - wycina fragmenty tekstu
+cut [opcje] plik
+    -f - lista pól jakie mają być wyświetlone
+    -d - określenie separatoru polecenia
+
+24. chmod - zmienia uprawnienia do katalogu
+chmod [opcje] [prawa] zasób
+    -R - automatyczna zmiana w podkatalogach i plikach danego zasobu
+    -c - informuje użytkownika o każdej zmianie
+    -v - informuje o każdym przetwarzanym zasobie
+
+25. find - wyszukuje pliki
+find [opcja] lokalizacja
+    -name - nazwa pliku
+    -type - typ pliku
+    -size - rozmiar pliku
+    -mtime - data modyfikacji
+    -iname - ignoruje wielkość liter
+
+26. wget - world wide web get
+wget [opcje] url 
+    -O - wskazanie pliku gdzie będą dane
+    -c - wznowienie pobierania
+    -r - pobieranie rekurencyjne
+    -p - pobranie całości strony
+    -b - pracuje w tle 
+
+27. grep - przeszukiwanie i filtrowanie plików
+grep [opcje] "wzór" plik/ tekstu
+    -w - całe słowa
+    -x - całe linie
+
+KONFIGURACJA/ POŁĄCZENIA:
+
+1. ssh-keygen - zarządzanie kluczami uwierzytelniającymi
+ssh-keygen [opcje]
+    -l - wyświetla odcisk palca klucza
+    -f - lokalizacja pliku klucza
+
+2. ip - wyświetla ip maszyny
+ip [opcje] obiekt polecenie
+    obiekty: link (połączenie), addr (adres), route (trasa)
+    -s - wyświetla statystyki
+    -a - wyświetla adres ip
+
+3. scp - kopiowanie między serwerami
+scp [opcje] źródło cel
+    -C - kompresja przekazywanych danych
+    -r - kopiowanie zawartości podkatalogów
+np: $scp linux@ip:/home/podkatalog/plik.txt~/plik2.txt 
+win-virtualbox: >scp .\plik.txt linux@ip:/home/podkatalog/plik2.txt
+
+PLIKI I ŚCIEŻKI:
+ścieżka bezwzględna - zaczyna się od katalogu głównego: /.../...
+ścieżka względna - zaczyna się od katalogu roboczego: ./.../...
+
+SKRYPTY:
+1. echo - wyświetla tekst użytkownika
+np.: echo "hello world"
+
+2. read -p - wczytuje wartość
+np.: read -p "tekst:" zmienna
+    potem do zmiennej odnosić się $nazwa_zmiennej
+
+3. declare -i - deklaracja zmiennej integer (liczby całkowite)
+np.: declare -i i=0
