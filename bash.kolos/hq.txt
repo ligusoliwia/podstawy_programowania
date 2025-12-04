@@ -192,3 +192,6 @@ PĘTLE:
 1. znany zakres wartości: pętla for 
 2. nieznany/ duży zakres wartości: pętla for in 
 3. dopółki warunek nie zostanie spełniony: pętla while
+
+break - wychodzi z pętli
+continue - przerywa aktualną iteracje i przechodzi do kolejnej
