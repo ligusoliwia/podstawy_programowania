@@ -187,3 +187,8 @@ np.: read -p "tekst:" zmienna
 
 3. declare -i - deklaracja zmiennej integer (liczby całkowite)
 np.: declare -i i=0
+
+PĘTLE:
+1. znany zakres wartości: pętla for 
+2. nieznany/ duży zakres wartości: pętla for in 
+3. dopółki warunek nie zostanie spełniony: pętla while
