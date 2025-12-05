@@ -1,0 +1,15 @@
+#napisz kod pętli, która w iteracjach od 0 do 1000 wyświetli:
+#wszystkie liczby podzielne przez 100
+
+#/!bin/bash
+
+i=0
+declare -a tab_podzielne
+while ((i<=1000)); do
+    i=$((i+1))
+        if (( i%100==0 )); then
+        tab+=("$i")
+        else continue
+        fi
+ done
+ echo "${tab[@]}"

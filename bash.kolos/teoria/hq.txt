@@ -195,3 +195,24 @@ PĘTLE:
 
 break - wychodzi z pętli
 continue - przerywa aktualną iteracje i przechodzi do kolejnej
+
+TABLICE:
+1. declare -a tab_nazwa - deklaracja tablicy indeksowej
+    wywołanie:
+    ${tab_nazwa[@]} - wyświetlenie całej tablicy
+    ${tab_nazwa[0]} - wyświetlenie pierwszego elementu (analogicznie dla kolejnych)
+    ${#tab_nazwa[@]} - wyświetlenie wielkości tablicy
+    
+    dodanie zmiennej do tablicy:
+    tab_nazwa+=("$zmienna") - dodanie jednej zmiennej
+    tab_nazwa+=("$zmienna1" "$zmienna2") - dodanie wielu zmiennych
+
+2. declare -A tab_asoc(["key"]="value") - deklaracja tablicy asocjasyjnej
+    wywołanie analogicznie jak dla indeksowej;
+    + ${!tab_asoc[@]} - wyświetlenie wszystkich kluczy tablicy
+
+    dodanie zmiennych:
+    tab_asoc["key"]="value" 
+
+
+    
