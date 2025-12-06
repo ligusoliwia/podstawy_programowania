@@ -33,8 +33,3 @@ def parzyste(lista_liczb): #stworzenie funkcji
     else:
         return liczby_parzyste
 print(parzyste (liczby))
-
-
-
-    
-    
