@@ -32,4 +32,4 @@ def parzyste(lista_liczb): #stworzenie funkcji
         return 'brak parzystych' #return tekst, zwraca zmienna ale jej nie wyswietla bez printa
     else:
         return liczby_parzyste
-print(parzyste (liczby))
+print(f'parzyste liczby z podanego zakresu to: {parzyste (liczby)}')
