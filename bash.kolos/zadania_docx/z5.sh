@@ -1,14 +1,16 @@
 #pętla która wyświetla wartości od 0 do 100
-#pomija kolejne potegi dwojki 2^1 i tak dalej
+#pomija kolejne potegi dwojki 
 
-#/!usr/bin/bash
+#!/usr/bin/bash
 i=0
 p=0
-declare -a tab(1..100)
-    if (( i != 2^p )); then
-        echo ${tab[i]}
-        i=$((i+1))
-        p=$((p+1))
+while (( i <= 100 )); do
+    if (( i != 2**p )); then
+        echo $i
+        ((i=i+1))
     else
+        ((i=i+1))
+        ((p=p+1))
         continue
     fi
+done

@@ -198,6 +198,7 @@ continue - przerywa aktualną iteracje i przechodzi do kolejnej
 
 TABLICE:
 1. declare -a tab_nazwa=(wartość1 wartość2) - deklaracja tablicy indeksowej
+!!! declare -a tab_zakres=({zakres .. wartosci})
     wywołanie:
     ${tab_nazwa[@]} - wyświetlenie całej tablicy
     ${tab_nazwa[0]} - wyświetlenie pierwszego elementu (analogicznie dla kolejnych)
