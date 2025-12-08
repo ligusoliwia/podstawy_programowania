@@ -4,7 +4,7 @@
 #/!bin/bash
 
 i=0
-declare -a tab_podzielne
+declare -a tab
 while ((i<=1000)); do
     i=$((i+1))
         if (( i%100==0 )); then
