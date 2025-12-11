@@ -68,5 +68,4 @@ for i in "$tab_z8[@]"; do
     tab_z8[0]=$i
     tab_z8[i]=$temp
     fi
-    ((i++))
-
+    ((i++))?
