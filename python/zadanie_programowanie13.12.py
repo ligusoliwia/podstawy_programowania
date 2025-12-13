@@ -31,7 +31,7 @@ def sitoEratostenesa(n:int) -> list:
         return []
 
     czy_pierwsza = []
-    for i in range(n + 1): #n + 1???
+    for i in range(n + 1): 
         czy_pierwsza.append(True) #t or f odpowiadaja czy liczba jest pierwsza czy nie, poczatkowo zak;adam ze wszystkie sa pierwsze
         
     czy_pierwsza[0] = False
