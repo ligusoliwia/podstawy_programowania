@@ -4,7 +4,7 @@
 #int - calkowita
 #float - zmiennoprzecinkowa, 
 #str (string) - tekst
-#bool (boolean) - True/ False
+#bool (boolean) - True/ False 
 
 #definicja zmiennej: nazwa_zmiennej = wartość
     #spacje w nazwach zmiennych to _
