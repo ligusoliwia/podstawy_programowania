@@ -101,6 +101,18 @@ print(odwrotnosc)
 for i in range(20, 100, 10):
     print(i)
 
-
+#konwersja typow danych
 lit = "wyraz"
 lit = list(lit)
+
+meg = [1, 2, 2, 3, 4, 4, 4]
+print(list(set(meg))) #to samo da się dwoma for loopami w sobie
+
+#FUNKCJE
+def vol(x: int, y: int) -> int:
+    if x == 1 or y == 1:
+        return "fsgs"
+    return x + y
+
+o = 10
+wynik1 = vol(o,5)
