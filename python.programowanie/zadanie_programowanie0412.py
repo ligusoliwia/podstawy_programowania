@@ -13,7 +13,7 @@ print(f'twoje liczby: {liczby}')
 def srednia(lista_liczb) -> float:
     #-> deklaruje typ zmiennej, funkcja def jest zdefiniowana jako zmiennoprzecinkowa, python nie wymaga 
     suma = 0 #początkowe ustalenie sumy na 0, potem dodawane elementy
-    for liczby in lista_liczb: #użycie for in: nie znam ilości wartości
+    for liczby in lista_liczb:
         suma += liczby #dodawanie wartości do sumy
     return suma / len(lista_liczb) #suma / ilość elementów
 
@@ -24,7 +24,7 @@ def parzyste(lista_liczb): #stworzenie funkcji
     liczby_parzyste = [] #deklaracja zmieneej
     czy_parzyste = False #deklaruje zmienna, opcje true or false (ale na poczatku tylko jedna opcje potem zmieniac)
     #aktualnie kod mysli ze wszystkie sa parzyste
-    for liczby in lista_liczb: #for, bo nie znam ilości wartości w liście
+    for liczby in lista_liczb:
         if liczby%2==0: #sprawdza parzystość
             liczby_parzyste.append(liczby) #dodaje wartości parzyste do listy
             czy_parzyste=True
