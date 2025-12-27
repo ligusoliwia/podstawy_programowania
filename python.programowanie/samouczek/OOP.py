@@ -159,6 +159,7 @@ for i in (fish, nap, tea):
     i.change()
 
 #OCHRONA DANYCH?? (nikt chyba nie kradnie takich rzeczy, nacisk na chyba)
+
 class DianaRoss:
     def __init__(self, track, album):
         self._track = track
@@ -178,3 +179,39 @@ print(song1.get_sth()) #zobaczenie prywatnej wartosci za pomoca metody wpisanej 
 
 song1.set_sth("I\'m Coming Out") #zmiana wartosci prywatnej za pomoca metody klasy
 print(song1._track)
+
+#KLASY WEWNETRZNE
+class outer_wilds:
+    def __init__(self):
+       self._name = "shell"
+    
+    class inner_wilds:
+        def __init__(self):
+            self._name = "core"
+
+        def where(self):
+            print("u are in the core lol")
+
+planet_shell = outer_wilds()
+print(planet_shell._name) #wyswietli cokolwiek w zewnetrzznej klasie
+planet_core = planet_shell.inner_wilds()
+print(planet_core._name) #wyswietli cokolwiek w wewnetrznej klasie
+planet_core.where() #wyswietli funkcje w wewnetrznej klasie
+
+#zewnetrzne klasy maja defaultowo dostep do wewnetrznych, ale nie na odwrot
+#zeby wewnetrzna miala dostep do zewnetrznej, musi miec to podane jako argument
+#przyklad z w3sql:
+class Outer:
+  def __init__(self):
+    self.name = "Emil"
+
+  class Inner:
+    def __init__(self, outer):
+      self.outer = outer
+
+    def display(self):
+      print(f"Outer class name: {self.outer.name}")
+
+outer = Outer()
+inner = outer.Inner(outer)
+inner.display()
