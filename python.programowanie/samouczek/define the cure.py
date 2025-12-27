@@ -1,3 +1,5 @@
+#definiowanie funkcji, dekoracje
+
 def steviewonder(): #definicja funkcji o danej nazwie():
     print('''lately i had the strangest feeling
           and i\'m a man of many wishes,
@@ -39,3 +41,38 @@ def over(world):
         print(i)
 worlds = ["the", "world", "we", "knew", "over", "and", "over", "again"]
 #over(worlds)
+
+#DEKORACJE SWIATECZNE! TO JUŻ CZAS!
+#zmiana zachowania funkcji/ dodanie dodatkowych "zasad?"
+#sa nadrzedne, biora wpisana w nie funkcje jako argument i zwracaja nowa
+def dekorator(func): #definicja dekoratora
+  def wewnetrzna():
+    return func().upper() #co ozdoba ma robić z kodem?
+  return wewnetrzna #zwraca
+@dekorator
+def nirvana(): #random funkcja stworzona ale z ozdubka
+  return "Hello Sally"
+print(nirvana()) #udalo sie yey
+
+#mozna dodac argumenty do dekoratora: przykad z w3 school
+def changecase(n):
+  def changecase(func):
+    def myinner():
+      if n == 1:
+        a = func().lower()
+      else:
+        a = func().upper()
+      return a
+    return myinner
+  return changecase
+
+@changecase(1)
+def myfunction():
+  return "Hello World!"
+
+@changecase(2)
+def otherfunction():
+   return "Hi World!"
+
+print(myfunction())
+print(otherfunction())
