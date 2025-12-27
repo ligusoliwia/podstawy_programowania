@@ -14,7 +14,7 @@ while True:
     num = input("proszę ładnie o podanie numerków do średniej, lub 'stop' jeśli chcesz wyjść: ")
     if num.lower() == 'stop':
         break
-    try: #obsluga bledoww
+    try:
         numerki.append(float(num))
     except ValueError:
         print('no chyba nie te znaki, próbuj dalej!')
