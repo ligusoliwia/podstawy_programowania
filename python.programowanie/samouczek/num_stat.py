@@ -1,8 +1,0 @@
-import numpy
-
-values = [4,11,7,14]
-
-x = numpy.mean(values)
-
-print(x)
- #do nauki statystyki numpy!!
