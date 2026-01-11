@@ -53,7 +53,6 @@ def dekorator(func): #definicja dekoratora
 def nirvana(): #random funkcja stworzona ale z ozdubka
   return "Hello Sally"
 print(nirvana()) #udalo sie yey
-
 #mozna dodac argumenty do dekoratora: przykad z w3 school
 def changecase(n):
   def changecase(func):
