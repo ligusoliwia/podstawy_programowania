@@ -1,0 +1,1 @@
+#TWORZENIE I UŻYWANIE KLAS: klasy dziedziczące, dekoratory, metody
