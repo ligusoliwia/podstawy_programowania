@@ -1,6 +1,5 @@
 #DEFINIOWANIE I UŻYWANIE FUNKCJI FULL
-#funkcja 'przechodzi' przez napisany kod tylko gdy jest wywołana, pomaga
-#ominąć powtarzania tego samego kodu
+#funkcja 'przechodzi' przez napisany kod tylko gdy jest wywołana, pomaga ominąć powtarzanie tego samego kodu
 
 #definiowanie funkcji: def nazwa_funkcji(argumenty funkcji):
 #WAŻNE: funkcje nie mogą być puste (albo nie tworzyć ich, albo użyc 'pass'):
@@ -27,11 +26,11 @@ print(genesis()) #krótsza wersja tego co wyżej, nie trzeba tworzyć oddzielnej
 #2.
 #tworzenie argumentów: def nazwa_funkcji(argument/y):
 #argumenty to informacje przekazywane funkcji podczas wywoływania
-#argumenty muszą być wywoływane w ten samej kolejności co zostały wpisane do funkcji
+#argumenty muszą być wywoływane w tej samej kolejności co zostały wpisane do funkcji
 #przypisanie typów danych do argumentów: ...(argument: typ)
     #funkcje mogą przyjmować każdy typ jako argument
 #można przypisać defaultowe wartości argumentów: ...(argument = default)
-    #argumentu o defoultowej wartości nie trzeba wywoływać
+    #argumentu o defaultowej wartości nie trzeba wywoływać
 
 def AM(song: str, year: int, albums, band = 'Arctic Monkeys'):
     print(f'funkcja2: piosenka \"{song}\" jest z {year} roku, od zespołu \"{band}\".')
@@ -39,6 +38,7 @@ def AM(song: str, year: int, albums, band = 'Arctic Monkeys'):
         print(f'funkcja2: \"{album}\"')
 albums = ['Humbug', 'AM', 'Whatever People Say I Am, I\'m Not', 'Suck It And See']
 #funkcja przyjmuje całą listę i 'przetrwarza' ją w funkcji for
+
 AM('Secret Door', 2009, albums)
 
 #3.
@@ -49,16 +49,18 @@ AM('Secret Door', 2009, albums)
 #przed argumentem *, np: def funkcja(*argument):
 #zamiast jednego argumentu funkcja dostaje krotke (tuple)
 #mozna dodać inne argumenty oprócz *arg:
-def arg(control, *radio):
+def radiohead(control, *radio):
     print(f'''funkcja3: what the hell am i doin\' here! i\'m a {radio[1]} 
         (i don\'t belong here! cuz i\'m a {radio[2]}) but you\'re so {control}''')
-arg( "special", "nutjob", "creep", "weirdo")
+    
+radiohead( "special", "nutjob", "creep", "weirdo")
 
 #ARBITARY KEYWORD ARGUMENT:
 #przed argumentem **, np: def funkcja(**argument):
 #tworzy slownik z argumentami
 def smiths(**light):
     print(f"funkcja3: die by ur side {light["hev"]}, and so {light["ple"]}")
+
 smiths(hev = "is a heavenly way to die", ple = "the pleasure is mine!")
 
 #4.
@@ -92,10 +94,12 @@ def suit(funkcja):
     def vest():
         return funkcja() + '... tutaj przykład wielu dekoratorów'
     return vest
+
 @body
 @suit
 def just():
     return 'funkcja4_dekorator: radiohead propaganda'
+
 print(just())
 
 #5.
