@@ -1,0 +1,35 @@
+,site,season,depth,molecule,rep_number,latitude,longitude,temperature,humidity,particles,comment
+0,stanowisko_1,spring,80.0,DNA,3,50.5047142755226,15.996063505651012,16.0,75.0,529.8805348598964,Wysoki współczynnik bytności ludzkiej
+1,stanowisko_1,spring,80.0,RNA,3,50.5047142755226,15.996063505651012,16.0,75.0,671.7600928510103,Wysoki współczynnik bytności ludzkiej
+2,stanowisko_1,summer,80.0,DNA,4,50.5047142755226,15.996063505651012,28.0,18.0,795.9977848683229,Wysoki współczynnik bytności ludzkiej
+3,stanowisko_1,summer,80.0,RNA,4,50.5047142755226,15.996063505651012,28.0,18.0,529.467022241499,Wysoki współczynnik bytności ludzkiej
+4,stanowisko_1,autumn,80.0,DNA,3,50.5047142755226,15.996063505651012,16.0,73.0,472.1597617112088,"Nie można pobrać próby, woda zbyt płytka. Pobieram z dna."
+5,stanowisko_1,autumn,80.0,RNA,3,50.5047142755226,15.996063505651012,16.0,73.0,274.53921190144285,"Nie można pobrać próby, woda zbyt płytka. Pobieram z dna."
+6,stanowisko_3,spring,20.0,DNA,3,50.20628784089974,22.156964140195125,21.0,33.0,698.9278472139144,Woda bardzo brudna
+7,stanowisko_3,spring,20.0,RNA,3,50.20628784089974,22.156964140195125,21.0,33.0,524.221000496443,Woda bardzo brudna
+8,stanowisko_3,summer,20.0,DNA,3,50.20628784089974,22.156964140195125,30.0,83.0,319.9023976297643,Woda bardzo brudna
+9,stanowisko_3,summer,20.0,RNA,3,50.20628784089974,22.156964140195125,30.0,83.0,551.3097989223164,Woda bardzo brudna
+10,stanowisko_4,autumn,50.0,DNA,3,50.61182593353753,16.9185796586325,1.0,97.0,664.5034576662559,Wysoki współczynnik bytności ludzkiej
+11,stanowisko_4,autumn,50.0,RNA,3,50.61182593353753,16.9185796586325,1.0,97.0,47.175200943091625,Wysoki współczynnik bytności ludzkiej
+12,stanowisko_4,autumn,80.0,RNA,4,50.61182593353753,16.9185796586325,-1.0,103.0,321.26587426533547,"Nie można pobrać próby, woda zbyt płytka. Pobieram z dna."
+13,stanowisko_5,summer,80.0,DNA,4,50.540663259433344,19.78543769327189,33.0,66.0,251.84524203659257,Wysoki współczynnik bytności ludzkiej
+14,stanowisko_5,summer,80.0,RNA,4,50.540663259433344,19.78543769327189,33.0,66.0,588.8492340466414,Wysoki współczynnik bytności ludzkiej
+15,stanowisko_7,autumn,80.0,DNA,2,51.2401005420403,20.98517857972764,13.0,74.0,793.6339556694796,"Nie można pobrać próby, woda zbyt płytka. Pobieram z dna."
+16,stanowisko_7,autumn,80.0,RNA,2,51.2401005420403,20.98517857972764,13.0,74.0,118.29067758244008,"Nie można pobrać próby, woda zbyt płytka. Pobieram z dna."
+17,stanowisko_8,summer,80.0,DNA,2,53.52817421609682,18.09180493888665,28.0,104.0,877.4981773842153,"Nie można pobrać próby, woda zbyt płytka. Pobieram z dna."
+18,stanowisko_8,summer,80.0,RNA,2,53.52817421609682,18.09180493888665,28.0,104.0,421.6839177970053,"Nie można pobrać próby, woda zbyt płytka. Pobieram z dna."
+19,stanowisko_8,summer,80.0,DNA,5,53.52817421609682,18.09180493888665,27.0,98.0,731.3255483653522,Woda bardzo brudna
+20,stanowisko_8,summer,80.0,RNA,5,53.52817421609682,18.09180493888665,27.0,98.0,770.9579493199562,Woda bardzo brudna
+21,stanowisko_9,summer,20.0,DNA,1,50.86545993908762,22.822394384023788,32.0,28.0,687.7380738602633,Wysoki współczynnik bytności ludzkiej
+22,stanowisko_9,summer,20.0,RNA,1,50.86545993908762,22.822394384023788,32.0,28.0,613.7716301845425,Wysoki współczynnik bytności ludzkiej
+23,stanowisko_11,spring,50.0,DNA,1,50.03141868020383,22.355054476047915,10.0,70.0,522.965551928371,Woda bardzo brudna
+24,stanowisko_11,spring,50.0,RNA,1,50.03141868020383,22.355054476047915,10.0,70.0,677.0182993051942,Woda bardzo brudna
+25,stanowisko_11,autumn,50.0,RNA,2,50.03141868020383,22.355054476047915,16.0,65.0,444.8019006860396,Woda bardzo brudna
+26,stanowisko_12,spring,50.0,DNA,3,50.495823805834206,21.01827394277883,6.0,85.0,655.6599113524424,Woda bardzo brudna
+27,stanowisko_12,spring,50.0,RNA,3,50.495823805834206,21.01827394277883,6.0,85.0,453.3262814738986,Woda bardzo brudna
+28,stanowisko_14,autumn,80.0,DNA,5,52.3149234124798,15.491899555469818,5.0,39.0,169.37876194598613,Wysoki współczynnik bytności ludzkiej
+29,stanowisko_14,autumn,80.0,RNA,5,52.3149234124798,15.491899555469818,5.0,39.0,337.48366200702947,Wysoki współczynnik bytności ludzkiej
+30,stanowisko_15,spring,80.0,DNA,5,50.36114786141373,15.356903412441696,24.0,62.0,731.0860633099453,"Nie można pobrać próby, woda zbyt płytka. Pobieram z dna."
+31,stanowisko_15,spring,80.0,RNA,5,50.36114786141373,15.356903412441696,24.0,62.0,305.4401082277748,"Nie można pobrać próby, woda zbyt płytka. Pobieram z dna."
+32,stanowisko_16,spring,50.0,DNA,4,53.20420034995348,19.63342250778188,10.0,57.0,997.9326439368106,Woda bardzo brudna
+33,stanowisko_16,spring,50.0,RNA,4,53.20420034995348,19.63342250778188,10.0,57.0,740.1227651460915,Woda bardzo brudna
