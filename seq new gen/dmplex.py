@@ -20,43 +20,28 @@ def dmplex(seq_plik, indexy):
     results = {}
     
     results["bleh"] = [] #na sekwencje niedopasowane
+
     #listy dla kazdej probki
     for sample in indexy.values():
-        results[sample] = [] #'sample_id:" "jakas sekwencja", tworzy liste dla nazw sampli w dict
+        results[sample] = [] #'sample_id:" "jakas sekwencja", tworzy liste od nazw sampli w dict
 
     with open(seq_plik, "r") as seq:
         for line in seq:
             line = line.strip()
-            if not line:
-                continue
+
             #snipsnip indeksy (8 od początku i od końca)
-                #UWAGA na ilosc barcodow bo nic nie znajdzie jak zle wpisane
             i1 = line[:8] #poczatkowy barcode
             i2 = line[-8:] #koncowy barcode
             key = f"{i1}+{i2}"
             
             #czy i1+i2 sekwencji pasuja do jakiegos sampla z dict??
             sample_id = indexy.get(key, "bleh")
+                #.get() → jesli znajdzie index to dodaje do listy danego sampla, jesli nie (alt) dodaje to bleh
             
             #przypisanie sekwencji do sampla
             results[sample_id].append(line)
             
     return results
 
-import csv
-def save_final(results, file):
-    with open(file, mode='w', newline='') as output:
-        writer = csv.writer(output)
-        
-        #kolumny nnazwy
-        writer.writerow(["Sample_ID", "Sequence"])
-        #przepisanie ze slownika wynikow
-        for sample_id, sequences in results.items():
-            for seq in sequences:
-                writer.writerow([sample_id, seq])
-
-
 index = read_id("indexy.txt")
 sorted_results = dmplex("sekwencje.txt", index)
-save_final(sorted_results, "omg.csv")
-
