@@ -44,6 +44,6 @@ def dmplex(seq_plik, indexy):
     return results
 
 
-index = read_id("data/indexy.txt")
-sorted_results = dmplex("data/sekwencje.txt", index)
+index = read_id("indexy.txt")
+sorted_results = dmplex("sekwencje.txt", index)
 print(sorted_results)
