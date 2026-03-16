@@ -43,6 +43,10 @@ def dmplex(seq_plik, indexy):
             
     return results
 
+#ZAPISAC DO PLIKU Z WRITE
+#def save(res, out_plik):
+#    with open(out_plik, "w", newline="") as res_csv:
+        
 
 index = read_id("indexy.txt")
 sorted_results = dmplex("sekwencje.txt", index)
