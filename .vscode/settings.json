@@ -1,4 +1,44 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda"
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "folder-color.pathColors": [
+        {
+            "folderPath": "podstawy_programowania/SEM2/seq_new_gen/",
+            "color": "foldercolorizer.color_00cc99",
+            "badge": "🦕"
+        },
+        {
+            "folderPath": "podstawy_programowania/IMPRV/",
+            "color": "foldercolorizer.color_996699"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/wykłady/",
+            "color": "foldercolorizer.color_3366cc",
+            "badge": "W"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/wykłady/data/",
+            "badge": "DF",
+            "color": "foldercolorizer.color_00cc99"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/DATA/",
+            "badge": "DF",
+            "color": "foldercolorizer.color_00cc99"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/",
+            "color": "foldercolorizer.color_99ccff"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/wyklady/",
+            "color": "foldercolorizer.color_00cccc",
+            "badge": "W"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/wyklady/data/",
+            "color": "foldercolorizer.color_00cc99",
+            "badge": "DF"
+        }
+    ]
 }
