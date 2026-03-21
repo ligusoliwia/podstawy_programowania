@@ -3,13 +3,8 @@
     "python-envs.defaultPackageManager": "ms-python.python:conda",
     "folder-color.pathColors": [
         {
-            "folderPath": "podstawy_programowania/SEM2/seq_new_gen/",
-            "color": "foldercolorizer.color_00cc99",
-            "badge": "🦕"
-        },
-        {
             "folderPath": "podstawy_programowania/IMPRV/",
-            "color": "foldercolorizer.color_996699"
+            "color": "foldercolorizer.color_ff66ff"
         },
         {
             "folderPath": "podstawy_programowania/SEM2/moduły_python/wykłady/",
@@ -27,10 +22,6 @@
             "color": "foldercolorizer.color_00cc99"
         },
         {
-            "folderPath": "podstawy_programowania/SEM2/moduły_python/",
-            "color": "foldercolorizer.color_99ccff"
-        },
-        {
             "folderPath": "podstawy_programowania/SEM2/moduły_python/wyklady/",
             "color": "foldercolorizer.color_00cccc",
             "badge": "W"
@@ -39,6 +30,47 @@
             "folderPath": "podstawy_programowania/SEM2/moduły_python/wyklady/data/",
             "color": "foldercolorizer.color_00cc99",
             "badge": "DF"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/cwiczenia/",
+            "color": "foldercolorizer.color_33ccff",
+            "badge": "C"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/cwiczenia/DATA/",
+            "color": "foldercolorizer.color_00cc99",
+            "badge": "DF"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/cwiczenia/prace_domowe/data/",
+            "color": "foldercolorizer.color_00cc99",
+            "badge": "DF"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/cwiczenia/prace_domowe/",
+            "color": "foldercolorizer.color_006699"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/moduły_python/",
+            "color": "foldercolorizer.color_336699"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/seq_new_gen/test_1903/",
+            "color": "foldercolorizer.color_996633"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/seq_new_gen/",
+            "color": "foldercolorizer.color_cccc99"
+        },
+        {
+            "folderPath": "podstawy_programowania/IMPRV/fun_def/",
+            "badge": "F",
+            "color": "foldercolorizer.color_cc0066"
+        },
+        {
+            "folderPath": "podstawy_programowania/IMPRV/cls_oop/",
+            "color": "foldercolorizer.color_990066",
+            "badge": "OP"
         }
     ]
 }

@@ -21,4 +21,5 @@ arg( "special", "nutjob", "creep", "weirdo")
 #tworzy slownik z argumentami
 def smiths(**light):
     print(f"die by ur side {light["hev"]}, and so {light["eas"]}")
+
 smiths(hev = "is a heavenly way to die", eas = "the pleasure is mine!")
