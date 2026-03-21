@@ -47,8 +47,19 @@ def dmplex(seq_plik, indexy):
 #def save(res, out_plik):
 #    with open(out_plik, "w", newline="") as res_csv:
 
-def save_file()
+def save_file(file, results):
+    with open(file, "w", newline="") as f:
+        for line in results:
+            f.write(line + "\n")
+
+def save_file(file, results):
+    with open(file, "w", newline="") as f:
+        for sample_id, sequences in results.items():
+            for seq in sequences:
+                f.write(f"{sample_id}\t{seq}\n")
 
 index = read_id("indexy.txt")
 sorted_results = dmplex("sekwencje.txt", index)
 print(sorted_results)
+save_file("final_seq.txt", sorted_results)
+
