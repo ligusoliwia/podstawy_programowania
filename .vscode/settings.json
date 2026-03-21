@@ -3,10 +3,6 @@
     "python-envs.defaultPackageManager": "ms-python.python:conda",
     "folder-color.pathColors": [
         {
-            "folderPath": "podstawy_programowania/IMPRV/",
-            "color": "foldercolorizer.color_ff66ff"
-        },
-        {
             "folderPath": "podstawy_programowania/SEM2/moduły_python/wykłady/",
             "color": "foldercolorizer.color_3366cc",
             "badge": "W"
@@ -71,6 +67,16 @@
             "folderPath": "podstawy_programowania/IMPRV/cls_oop/",
             "color": "foldercolorizer.color_990066",
             "badge": "OP"
+        },
+        {
+            "folderPath": "podstawy_programowania/IMPRV/click_clack_analysis/",
+            "badge": "DA",
+            "color": "foldercolorizer.color_cc66cc"
+        },
+        {
+            "folderPath": "podstawy_programowania/IMPRV/click_clack_analysis/data/",
+            "color": "foldercolorizer.color_00cc99",
+            "badge": "DF"
         }
     ]
 }
