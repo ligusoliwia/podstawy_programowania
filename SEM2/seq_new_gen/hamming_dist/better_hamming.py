@@ -18,15 +18,19 @@ def bug_log(file, bug_type, seq1, seq2):
     with open(file, "a") as bug:
         bug.write(f"BŁĄD! para {seq1} i {seq2}, typ: {bugs[bug_type]}\n")
 
-def ham_res(file, compare):
+def ham_res(file, compare, altv):
     allowed = set("ACTG")
     with open(file, "r") as sq:
         sq = sq.readlines()
         seq = [line.strip().upper() for line in sq]
 
     if len(seq) % 2 != 0 and compare == 2:
-        compare = 1
-        print("liczba sekwencji w pliku jest nieparzysta, zmiana trybu porównywania na 1")
+        if altv == 1:
+            compare = 1
+            print("liczba sekwencji w pliku jest nieparzysta, zmiana trybu porównywania na 1")
+        else: 
+            quit()
+            print("liczba sekwencji w pliku jest nieparzysta, następuje wyjście z programu.")
 
     if compare == 1:
         results = []
@@ -74,7 +78,16 @@ comp = input('''jakie porowananie sekwencji (podaj numer):
              wybór: ''')
 c_type = int(comp)
 
+alt = input('''w wypadku nieparzystej ilości sekwencji (podaj numer):
+             1. zmień tryb porównania,
+             2. zaznacz błąd i wyjdź z programu.
+             wybór: ''')
+a_type = int(alt)
+
 if c_type not in [1, 2]:
     print("niepoprawny tryb, spróbuj ponownie :)")
 
-ham_res("testSEQ.txt", c_type)
+if a_type not in [1, 2]:
+    print("niepoprawny alternatywny tryb, spróbuj ponownie :)")
+
+ham_res("testSEQ.txt", c_type, a_type)
