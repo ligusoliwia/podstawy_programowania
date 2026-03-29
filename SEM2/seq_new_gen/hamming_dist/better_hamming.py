@@ -22,7 +22,7 @@ def ham_res(file, compare):
     allowed = set("ACTG")
     with open(file, "r") as sq:
         sq = sq.readlines()
-        seq = [line.strip() for line in sq]
+        seq = [line.strip().upper() for line in sq]
 
     if len(seq) % 2 != 0 and compare == 2:
         compare = 1
