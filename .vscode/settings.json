@@ -86,6 +86,10 @@
             "folderPath": "podstawy_programowania/SEM2/seq_new_gen/demultiplx/",
             "badge": "DM",
             "color": "foldercolorizer.color_cc6699"
+        },
+        {
+            "folderPath": "podstawy_programowania/SEM2/seq_new_gen/hamming_dist/",
+            "badge": "HD"
         }
     ]
 }

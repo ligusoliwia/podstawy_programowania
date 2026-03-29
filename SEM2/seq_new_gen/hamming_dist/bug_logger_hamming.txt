@@ -1,0 +1,67 @@
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i GATTACA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i GATTACA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i ACTGA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i ACXG, typ: niezidentyfikowany znak
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i GCAT, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i GATTACA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i GATTACA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i ACTGA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i ACXG, typ: niezidentyfikowany znak
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i GCAT, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i GATTACA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i GATTACA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i ACTGA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i ACXG, typ: niezidentyfikowany znak
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGCAAGTCCACGGCAAGTCCCCACGGC i GCAT, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i GATTACA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i GATTACA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i ACTGA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i ACXG, typ: niezidentyfikowany znak
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACGCCAGTCCAACGGCAAGTCCTCACGGC i GCAT, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i ACTGA, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i ACXG, typ: niezidentyfikowany znak
+BŁĄD! para GATTACA i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i GCAT, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i ACTGA, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i ACXG, typ: niezidentyfikowany znak
+BŁĄD! para GATTACA i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para GATTACA i GCAT, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTG i ACTGA, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTG i ACXG, typ: niezidentyfikowany znak
+BŁĄD! para ACTG i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTG i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGA i ACTG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGA i ACXG, typ: niezidentyfikowany znak
+BŁĄD! para ACTGA i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGA i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTGA i GCAT, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTG i ACXG, typ: niezidentyfikowany znak
+BŁĄD! para ACTG i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACTG i TCAGTCAGTCAG, typ: różna długość porównywanych sekwencji
+BŁĄD! para ACXG i TCAGTCAGTCAG, typ: niezidentyfikowany znak
+BŁĄD! para ACXG i TCAGTCAGTCAG, typ: niezidentyfikowany znak
+BŁĄD! para ACXG i GCAT, typ: niezidentyfikowany znak
+BŁĄD! para TCAGTCAGTCAG i GCAT, typ: różna długość porównywanych sekwencji
+BŁĄD! para TCAGTCAGTCAG i GCAT, typ: różna długość porównywanych sekwencji
