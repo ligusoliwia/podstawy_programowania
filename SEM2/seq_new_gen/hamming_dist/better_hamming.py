@@ -7,7 +7,7 @@ def hamming(seq1, seq2):
 
 def res_record(file, distance, seq1, seq2):
     with open(file, "a") as res:
-        res.write(f"para {seq1} i {seq2} ma długość {distance}" + "\n")
+        res.write(f"para {seq1} i {seq2} ma odległość hamminga: {distance}" + "\n")
 
 bugs = {1: "różna długość porównywanych sekwencji",
         2: "niezidentyfikowany znak",
