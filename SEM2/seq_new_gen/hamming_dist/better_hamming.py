@@ -29,8 +29,8 @@ def ham_res(file, compare, altv):
             compare = 1
             print("liczba sekwencji w pliku jest nieparzysta, zmiana trybu porównywania na 1")
         else: 
-            quit()
             print("liczba sekwencji w pliku jest nieparzysta, następuje wyjście z programu.")
+            quit()
 
     if compare == 1:
         results = []
