@@ -18,8 +18,6 @@ def bug_log(file, bug_type, seq1, seq2):
     with open(file, "a") as bug:
         bug.write(f"BŁĄD! para {seq1} i {seq2}, typ: {bugs[bug_type]}\n")
 
-
-
 def ham_res(file, compare):
     allowed = set("ACTG")
     with open(file, "r") as sq:
