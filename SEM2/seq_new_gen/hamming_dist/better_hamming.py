@@ -1,3 +1,4 @@
+#funkcja do obliczania odległości hamminga
 def hamming(seq1, seq2):
     distance = 0
     for i in range(len(seq1)):
@@ -5,25 +6,30 @@ def hamming(seq1, seq2):
             distance += 1
     return distance
 
+#funkcja do zapisywania pliku (hamming)
 def res_record(file, distance, seq1, seq2):
     with open(file, "a") as res:
         res.write(f"para {seq1} i {seq2} ma odległość hamminga: {distance}" + "\n")
 
+#słownik znanych/ oczekiwanych błędów
 bugs = {1: "różna długość porównywanych sekwencji",
         2: "niezidentyfikowany znak",
         }
 
+#funkcja do zapisywania błędów (ze słownika)
 def bug_log(file, bug_type, seq1, seq2):
     bug_type = int(bug_type)
     with open(file, "a") as bug:
         bug.write(f"BŁĄD! para {seq1} i {seq2}, typ: {bugs[bug_type]}\n")
 
+#core
 def ham_res(file, compare, altv):
     allowed = set("ACTG")
     with open(file, "r") as sq:
         sq = sq.readlines()
         seq = [line.strip().upper() for line in sq]
 
+    #proofcheck comapare mode
     if len(seq) % 2 != 0 and compare == 2:
         if altv == 1:
             compare = 1
@@ -33,7 +39,6 @@ def ham_res(file, compare, altv):
             quit()
 
     if compare == 1:
-        results = []
         #petla zew: wybiera 1 seq
         for i in range(len(seq)):
             #petla wew: wybiera kolejna seq
@@ -54,7 +59,6 @@ def ham_res(file, compare, altv):
                     print(f"wystąpił błąd, para {s1} i {s2}; patrz plik z błędami")
     
     if compare == 2:
-        results = []
         for i in range(0, len(seq) - 1, 2): #range od zera do dlugosc pliku - 1, skok o 2
             s1, s2 = seq[i], seq[i+1] #dwie linie
             #sprawdzanie zgodnosci znakow
