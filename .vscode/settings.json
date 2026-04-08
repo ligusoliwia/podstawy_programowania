@@ -90,6 +90,47 @@
         {
             "folderPath": "podstawy_programowania/SEM2/seq_new_gen/hamming_dist/",
             "badge": "HD"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/moduły_python/",
+            "color": "foldercolorizer.color_9966cc"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/moduły_python/wyklady/",
+            "color": "foldercolorizer.color_996699"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/moduły_python/wyklady/data/",
+            "color": "foldercolorizer.color_00cc99",
+            "badge": "DF"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/DATA/",
+            "badge": "DF",
+            "color": "foldercolorizer.color_00cc99"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/prace_domowe/",
+            "color": "foldercolorizer.color_990099",
+            "badge": "D"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/",
+            "color": "foldercolorizer.color_cc66cc"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/seq_new_gen/",
+            "color": "foldercolorizer.color_cc6699"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/seq_new_gen/demultiplx/",
+            "color": "foldercolorizer.color_cc6666",
+            "badge": "DM"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/seq_new_gen/hamming_dist/",
+            "color": "foldercolorizer.color_ff6666",
+            "badge": "HD"
         }
     ]
 }
