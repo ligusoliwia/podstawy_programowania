@@ -9,13 +9,13 @@
         },
         {
             "folderPath": "podstawy_programowania/SEM2/moduły_python/wykłady/data/",
-            "badge": "DF",
-            "color": "foldercolorizer.color_00cc99"
+            "color": "foldercolorizer.color_00cc99",
+            "badge": "DF"
         },
         {
             "folderPath": "podstawy_programowania/SEM2/moduły_python/DATA/",
-            "badge": "DF",
-            "color": "foldercolorizer.color_00cc99"
+            "color": "foldercolorizer.color_00cc99",
+            "badge": "DF"
         },
         {
             "folderPath": "podstawy_programowania/SEM2/moduły_python/wyklady/",
@@ -60,8 +60,8 @@
         },
         {
             "folderPath": "podstawy_programowania/IMPRV/fun_def/",
-            "badge": "F",
-            "color": "foldercolorizer.color_cc0066"
+            "color": "foldercolorizer.color_cc0066",
+            "badge": "F"
         },
         {
             "folderPath": "podstawy_programowania/IMPRV/cls_oop/",
@@ -70,8 +70,8 @@
         },
         {
             "folderPath": "podstawy_programowania/IMPRV/click_clack_analysis/",
-            "badge": "DA",
-            "color": "foldercolorizer.color_cc66cc"
+            "color": "foldercolorizer.color_cc66cc",
+            "badge": "DA"
         },
         {
             "folderPath": "podstawy_programowania/IMPRV/click_clack_analysis/data/",
@@ -84,8 +84,8 @@
         },
         {
             "folderPath": "podstawy_programowania/SEM2/seq_new_gen/demultiplx/",
-            "badge": "DM",
-            "color": "foldercolorizer.color_cc6699"
+            "color": "foldercolorizer.color_cc6699",
+            "badge": "DM"
         },
         {
             "folderPath": "podstawy_programowania/SEM2/seq_new_gen/hamming_dist/",
@@ -106,8 +106,8 @@
         },
         {
             "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/DATA/",
-            "badge": "DF",
-            "color": "foldercolorizer.color_00cc99"
+            "color": "foldercolorizer.color_00cc99",
+            "badge": "DF"
         },
         {
             "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/prace_domowe/",
@@ -131,6 +131,10 @@
             "folderPath": "uni_programowanie/SEM2/seq_new_gen/hamming_dist/",
             "color": "foldercolorizer.color_ff6666",
             "badge": "HD"
+        },
+        {
+            "extension": "ipynb",
+            "color": "foldercolorizer.color_d75fff"
         }
     ]
 }
