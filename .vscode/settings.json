@@ -111,7 +111,7 @@
         },
         {
             "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/prace_domowe/",
-            "color": "foldercolorizer.color_990099",
+            "color": "foldercolorizer.color_0087ff",
             "badge": "D"
         },
         {
@@ -139,6 +139,14 @@
         {
             "filePath": "uni_programowanie/SEM2/p8/projekt_8.ipynb",
             "color": "foldercolorizer.color_d75faf"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/p8/",
+            "color": "foldercolorizer.color_ffafaf"
+        },
+        {
+            "folderPath": "uni_programowanie/histopathology/",
+            "color": "foldercolorizer.color_d78787"
         }
     ]
 }
