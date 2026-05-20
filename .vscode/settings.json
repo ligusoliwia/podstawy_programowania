@@ -141,12 +141,20 @@
             "color": "foldercolorizer.color_d75faf"
         },
         {
-            "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/p8/",
+            "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/p8",
             "color": "foldercolorizer.color_ffafaf"
         },
         {
             "folderPath": "uni_programowanie/histopathology/",
             "color": "foldercolorizer.color_d78787"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/data/",
+            "color": "foldercolorizer.color_5faf5f"
+        },
+        {
+            "folderPath": "uni_programowanie/SEM2/moduły_python/cwiczenia/prace_domowe/data/",
+            "color": "foldercolorizer.color_5faf5f"
         }
     ]
 }
